@@ -1,9 +1,12 @@
 {
-    "name": "html5_outliner",
-    "license": "MPL 2.0",
-    "author": "",
-    "version": "0.2.1",
-    "fullName": "HTML5_Outliner",
-    "id": "jid1-99OrUsrylTwWQQ",
-    "description": "a basic add-on"
+  "title": "html5_outliner",
+  "name": "htm5-outliner",
+  "version": "0.2.2",
+  "description": "Generates an HTML5 outline of the current webpage.",
+  "main": "index.js",
+  "author": "Arky",
+  "engines": {
+    "firefox": ">=33.0a1"
+  },
+  "license": "MIT"
 }
