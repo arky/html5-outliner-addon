@@ -4,8 +4,8 @@ var tabs = require("sdk/tabs");
 var { ActionButton } = require("sdk/ui/button/action");
 
 var panel = require("sdk/panel").Panel({
-width: 400,
-height: 480
+/*width: 400,
+height: 480 */
 });
 
 
@@ -15,7 +15,8 @@ var button = ActionButton({
     icon: "./html5-logo.png",
     onClick: function(state) {
 	panel.contentURL = "http://gsnedders.html5.org/outliner/process.py?url=" + tabs.activeTab.url
-	console.log("You clicked '" + tabs.activeTab.url + "'");
+	/* console.log("You clicked '" + tabs.activeTab.url + "'"); */
+	panel.show({position: button});
 }
 });
 
