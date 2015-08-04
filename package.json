@@ -1,7 +1,8 @@
 {
-  "title": "HTML5_Outliner",
-  "name": "html5-outliner",
-  "version": "0.2.2",
+  "title": "HTML5-Outliner",
+  "name" : "html5-outliner",
+  "id"	: "jid1-99OrUsrylTwWQQ@jetpack",
+  "version": "0.2.2",	
   "description": "Displays the HTML5 document outline of the current web page. HTML5 Outlines are composed of labels for important structural elements (e.g., heading text, table titles, form titles etc).",
   "main": "index.js",
   "author": "Arky",
