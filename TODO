@@ -1,3 +1,4 @@
 TODO 
 
+* Add UDDI information: Does JPM support UDDI in package.json? 
 * Add checks for Fully Qualified Domain Name (FQDN)
